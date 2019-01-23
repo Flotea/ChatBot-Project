@@ -1,6 +1,21 @@
 body{
-    background-color: pink;
+    background-color: rgb(76, 122, 66);
 }
-h1{
-    color: sienna;
+#Sunny{
+    margin-top: 10px;
+    margin-left: 300px;
+    border-style: solid;
+    border-radius: 40px;
+}
+#title{
+    border-style: ridge;
+    border-radius: 40px;
+    background-color: #ccffcc;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    color: rgb(42, 66, 42);
+}
+#start{
+    border-style: solid;
 }
