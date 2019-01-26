@@ -1,9 +1,26 @@
 body{
-    background-color: rgb(76, 122, 66);
+    /*background-image:url("https://cdn.japantimes.2xx.jp/wp-content/uploads/2017/04/n-cash-a-20170406-870x489.jpg");
+    background-size: cover;*/
+    background-image:url("HappyGarbageGuy.jpg");
+
 }
+/*#everything{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+}*/
+#text{
+    display:table;
+    /*margin-left: 100px;
+    margin-right:100px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #Sunny{
     margin-top: 10px;
-    margin-left: 300px;
+    /*margin-left: 500px;
+    margin-right: 500px;*/
     border-style: solid;
     border-radius: 40px;
 }
@@ -17,5 +34,30 @@ body{
     color: rgb(42, 66, 42);
 }
 #start{
-    border-style: solid;
+    border-style: ridge;
+    border-style: 1px;
+    border-radius:10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:20px;
+    background-color: #ccffcc;
+    text-align: center;
+
 }
+
+#response{
+    text-align: center;
+    background-color:#ccffcc;
+    border-style: ridge;
+    padding: 20px;
+    
+
+}
+button{
+    margin-left:10px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
