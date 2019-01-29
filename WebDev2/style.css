@@ -15,34 +15,42 @@ body{
     margin-right:100px;*/
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Major Mono Display', monospace
 }
 
 #Sunny{
+    border-style: solid;
+    border-color: rgb(14, 43, 14);
     margin-top: 10px;
     /*margin-left: 500px;
     margin-right: 500px;*/
-    border-style: solid;
     border-radius: 40px;
 }
 #title{
-    border-style: ridge;
-    border-radius: 40px;
+    border-top-style: dotted;
+    border-right-style: ridge;
+    border-bottom-style: dotted;
+    border-left-style: ridge;
+    border-color:rgb(14, 43, 14);
+    /*border-radius: 40px;*/
     background-color: #ccffcc;
     margin-left: 300px;
     margin-right: 300px;
     text-align: center;
     color: rgb(42, 66, 42);
 }
+#titleText{
+    font-family: 'Major Mono Display', monospace
+}
 #start{
     border-style: ridge;
     border-style: 1px;
-    border-radius:10%;
+    /*border-radius:10%;*/
     margin-top: 30px;
     margin-bottom: 30px;
     padding:20px;
     background-color: #ccffcc;
     text-align: center;
-
 }
 
 #response{
